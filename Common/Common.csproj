@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="microsoft.entityframeworkcore" Version="5.0.9" />
+		<PackageReference Include="microsoft.entityframeworkcore.design" Version="5.0.9">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.9" />
+		<PackageReference Include="microsoft.entityframeworkcore.tools" Version="5.0.9">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Pluralize.NET" Version="1.0.2" />
+	</ItemGroup>
+</Project>
